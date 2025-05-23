@@ -11,7 +11,7 @@ If you wish to contribute to NvChad, you should:
     ```
   - For https:
     ```shell
-    $ git clone HTTPS://github.com/<YOUR GITHUB USERNAME>/NvChad.git ~/.config/nvim
+    $ git clone https://github.com/<YOUR GITHUB USERNAME>/NvChad.git ~/.config/nvim
     ```
 3. [`add a new remote repo to track`](https://www.atlassian.com/git/tutorials/git-forks-and-upstreams)
    - this means you can push/pull as normal to your own repo, but also easily track & update from the NvChad repo
@@ -21,7 +21,7 @@ If you wish to contribute to NvChad, you should:
        ```
     - for https:
        ```shell
-       $ git remote add upstream HTTPS://github.com/NvChad/NvChad.git
+       $ git remote add upstream https://github.com/NvChad/NvChad.git
        ```  
 4. any time you create a branch to do some work, use 
    ```shell
@@ -47,7 +47,7 @@ If you wish to contribute to NvChad, you should:
 
 - NvChad won't keep adding more and more features (like adding new plugins most likely) as requested if they feel unneeded and aren't usable by the majority!! If you think the plugin you want to be added is very useful and many NvChaders would find it useful, then such feature's PR is welcomed!
 
-- But adding specific features like adding config for [`wakatime](HTTPS://GitHub.Com/wakatime/vim-wakatime) etc will be added in this [chad user configs`](HTTPS://GitHub.Com/NvChad/NvChad/wiki/Chad-user-configs). This lets the user select the things only they want ( adding configs from extra configs ).
+- But adding specific features like adding config for [`wakatime](https://GitHub.Com/wakatime/vim-wakatime) etc will be added in this [chad user configs`](https://GitHub.Com/NvChad/NvChad/wiki/Chad-user-configs). This lets the user select the things only they want ( adding configs from extra configs ).
 
 ## How to remove or edit commits from your PR
 > You may have been directed here to remove a commit such as a merge commit: `Merge NvChad/main into devBranch` from your PR
